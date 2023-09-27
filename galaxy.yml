@@ -1,0 +1,14 @@
+---
+namespace: devinsight
+name: semaphore
+authors:
+  - Patrick Black <patrick@devinsight.co>
+  - Devin Earl <devin@devinsight.co>
+version: 0.1.0
+readme: README.md
+description: Ansible Semaphore module for management of Semaphore with Ansible plays
+license:
+  - GPL-3.0-or-later
+license_file: LICENSE
+dependencies: {}
+repository: https://github.com/devinsight-ops/devinsight.semaphore

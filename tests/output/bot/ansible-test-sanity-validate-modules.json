@@ -1,0 +1,10 @@
+{
+    "docs": "https://docs.ansible.com/ansible-core/2.15/dev_guide/testing/sanity/validate-modules.html", 
+    "results": [
+        {
+            "message": "The test `ansible-test sanity --test validate-modules` [[explain](https://docs.ansible.com/ansible-core/2.15/dev_guide/testing/sanity/validate-modules.html)] failed with 10 errors:", 
+            "output": "plugins/modules/key.py:0:0: doc-default-does-not-match-spec: Argument 'new' in argument_spec defines default as (False) but documentation defines default as (None)\nplugins/modules/key.py:0:0: doc-required-mismatch: Argument 'name' in argument_spec is required, but is not documented as being required\nplugins/modules/key.py:0:0: invalid-documentation: DOCUMENTATION.author: required key not provided @ data['author']. Got None\nplugins/modules/key.py:0:0: invalid-documentation: DOCUMENTATION.description: required key not provided @ data['description']. Got None\nplugins/modules/key.py:0:0: invalid-documentation: DOCUMENTATION.module: not a valid value for dictionary value @ data['module']. Got 'my_test'\nplugins/modules/key.py:0:0: missing-examples: No EXAMPLES provided\nplugins/modules/key.py:0:0: parameter-type-not-in-doc: Argument 'name' in argument_spec defines type as 'str' but documentation doesn't define type\nplugins/modules/key.py:0:0: parameter-type-not-in-doc: Argument 'new' in argument_spec defines type as 'bool' but documentation doesn't define type\nplugins/modules/key.py:0:0: undocumented-parameter: Argument 'name' is listed in the argument_spec, but not documented in the module documentation\nplugins/modules/key.py:0:0: undocumented-parameter: Argument 'new' is listed in the argument_spec, but not documented in the module documentation"
+        }
+    ], 
+    "verified": false
+}
