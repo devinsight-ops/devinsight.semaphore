@@ -1,2 +1,3 @@
-# devinsight.semaphore
-Ansible Semaphore collection for management of Semaphore with Ansible plays
+# Ansible Collection: `devinsight.semaphore`
+
+Ansible Semaphore module for management of Semaphore with Ansible plays.
